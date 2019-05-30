@@ -31,8 +31,8 @@ MODEL:
     SHARE_BOX_FEATURE_EXTRACTOR: False
   KEYPOINT_ON: True
 DATASETS:
-  TRAIN: ("keypoints_fashion_train",)
-  TEST: ("keypoints_fashion_val",)
+  TRAIN: ("keypoints_fashion_coco_train",)
+  TEST: ("keypoints_fashion_coco_val",)
 INPUT:
   MIN_SIZE_TRAIN: (640, 672, 704, 736, 768, 800)
 DATALOADER:

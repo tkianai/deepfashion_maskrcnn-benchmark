@@ -7,11 +7,11 @@ import os
 class DatasetCatalog(object):
     DATA_DIR = "datasets"
     DATASETS = {
-        "keypoints_fashion_train": {
+        "keypoints_fashion_coco_train": {
             "img_dir": "fashion/train/image",
             "ann_file": "fashion/train/deepfashion2_coco.json",
         },
-        "keypoints_fashion_val": {
+        "keypoints_fashion_coco_val": {
             "img_dir": "fashion/val/image",
             "ann_file": "fashion/val/deepfashion2_coco.json"
         },
