@@ -12,8 +12,8 @@ class DatasetCatalog(object):
             "ann_file": "fashion/train/deepfashion2_coco.json",
         },
         "keypoints_fashion_coco_val": {
-            "img_dir": "fashion/val/image",
-            "ann_file": "fashion/val/deepfashion2_coco.json"
+            "img_dir": "fashion/validation/image",
+            "ann_file": "fashion/validation/deepfashion2_coco.json"
         },
         "coco_2017_train": {
             "img_dir": "coco/train2017",
